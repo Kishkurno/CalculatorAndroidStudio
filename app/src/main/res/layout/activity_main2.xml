@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <!-- Кнопки для синуса, косинуса, тангенса, котангенса и корня -->
+
+    <Button
+        android:id="@+id/buSin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sin" />
+
+    <Button
+        android:id="@+id/buCos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cos" />
+
+    <Button
+        android:id="@+id/buTan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tan" />
+
+    <Button
+        android:id="@+id/buCot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cot" />
+
+    <Button
+        android:id="@+id/buSqrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="√" />
+</LinearLayout>
